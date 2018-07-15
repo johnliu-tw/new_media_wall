@@ -46,7 +46,6 @@ try:
         date = date.translate(DD)
         date = date[:8]
         if(date==now):
-            print(date)
             # set title, share, tags, preText, link
             # set title
             title = sourceCode2.findAll("h1","entry-title")[0].text
@@ -106,23 +105,23 @@ try:
     articles = sourceCode.find_all("div","post_list_item")
     for article in articles:
         sourceCode2 = BeautifulSoup(str(article), "html.parser")
-        date = sourceCode2.findAll("li","post_date")[0].text
-        date = date.replace("\n","")
-        date = datetime.datetime.strptime(date, "%Y/%m/%d")
-        print(date)
-        if (date!=now):
-            title = sourceCode2.findAll("a","js-auto_break_title")[0].text
-            print(title)
-            link = sourceCode2.findAll("a")[0]['href']
-            preText = sourceCode2.findAll("p","post_description")[0].text
-            with connection.cursor() as cursor:
-                # Read a single record
-                sql = '''INSERT INTO `new_media`.`articles`
-                        (`title`, `date`,`preText`,`link`,`brand`)
-                        VALUES ('{}', '{}', '{}', '{}','{}'); '''.format(title,date,preText,link,'inside')
-                cursor.execute(sql)
-                connection.commit()
-                result = cursor.fetchall()
+        if (sourceCode2.findAll("li","post_date")):
+            date = sourceCode2.findAll("li","post_date")[0].text
+            date = date.replace("\n","")
+            date = datetime.datetime.strptime(date, "%Y/%m/%d")
+            if (date!=now):
+                title = sourceCode2.findAll("a","js-auto_break_title")[0].text
+                print(title)
+                link = sourceCode2.findAll("a")[0]['href']
+                preText = sourceCode2.findAll("p","post_description")[0].text
+                with connection.cursor() as cursor:
+                    # Read a single record
+                    sql = '''INSERT INTO `new_media`.`articles`
+                            (`title`, `date`,`preText`,`link`,`brand`)
+                            VALUES ('{}', '{}', '{}', '{}','{}'); '''.format(title,date,preText,link,'inside')
+                    cursor.execute(sql)
+                    connection.commit()
+                    result = cursor.fetchall()
 
     driver.quit()
     connection.close() 
