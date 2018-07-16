@@ -1,6 +1,7 @@
 import time
 import string
 import datetime
+import os
 from urllib.request import urlopen
 from selenium import webdriver
 from bs4 import BeautifulSoup
@@ -21,11 +22,8 @@ connection = pymysql.connect(host='localhost',
                              db='new_media',
                              charset='utf8mb4',
                              cursorclass=pymysql.cursors.DictCursor)
-
-driver = webdriver.PhantomJS(executable_path
-                             ='/Users/JohnLiu/CodeProject/'+
-                              'Python_Visualize/phantomjs-2.1.1'+
-                              '/bin/phantomjs')
+currentPath = os.getcwd()+'/module/phantomjs-2.1.1/bin/phantomjs'
+driver = webdriver.PhantomJS(executable_path=currentPath)
 DD = Del()
 now = datetime.datetime.now()
 now = now.strftime("%Y%m%d")
