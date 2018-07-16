@@ -18,13 +18,13 @@ conn = psycopg2.connect(database="d9ptbtijvjtpr0",
                         host="ec2-54-163-234-99.compute-1.amazonaws.com", 
                         port="5432")
 
-currentPath = '/app/geckodriver'
+currentPath = '/app/chromedriver'
 options = webdriver.firefox.options.Options()
 options.add_argument('-headless')
 
-headers = { 'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36' }  
 
-driver = webdriver.Firefox(executable_path=currentPath, firefox_options=options)
+
+driver = webdriver.Chrome(currentPath)
 now = datetime.datetime.now()
 now = now.strftime("%Y%m%d")
 
