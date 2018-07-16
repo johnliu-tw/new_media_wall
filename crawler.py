@@ -2,19 +2,17 @@ import time
 import string
 import datetime
 import os
-from urllib.request import urlopen
+import urllib2
 from selenium import webdriver
 from bs4 import BeautifulSoup
+import sys
+import traceback
+import pymysql
+import re
+import http.client  
 
-import pymysql.cursors
-
-
-class Del:
-  def __init__(self, keep=string.digits):
-    self.comp = dict((ord(c),c) for c in keep)
-  def __getitem__(self, k):
-    return self.comp.get(k)
-
+reload(sys) 
+sys.setdefaultencoding('utf8')
 
 connection = pymysql.connect(host='localhost',
                              user='root',
@@ -22,9 +20,13 @@ connection = pymysql.connect(host='localhost',
                              db='new_media',
                              charset='utf8mb4',
                              cursorclass=pymysql.cursors.DictCursor)
-currentPath = os.getcwd()+'/module/phantomjs-2.1.1/bin/phantomjs'
-driver = webdriver.PhantomJS(executable_path=currentPath)
-DD = Del()
+currentPath = os.getcwd()+'/geckodriver'
+options = webdriver.firefox.options.Options()
+options.add_argument('-headless')
+
+headers = { 'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36' }  
+
+driver = webdriver.Firefox(executable_path=currentPath, firefox_options=options)
 now = datetime.datetime.now()
 now = now.strftime("%Y%m%d")
 
@@ -41,7 +43,7 @@ try:
         span = sourceCode2.findAll("span","body")
         date = span[1].text
         #start to parse date
-        date = date.translate(DD)
+        date = re.sub("[^0-9]", "", date)
         date = date[:8]
         if(date==now):
             # set title, share, tags, preText, link
@@ -51,7 +53,7 @@ try:
             link = sourceCode2.findAll("a")[0]['href']
             # set share
             fbIframe = sourceCode2.findAll("iframe")[1]
-            response = urlopen(fbIframe.attrs['src'])
+            response = urllib2.urlopen(urllib2.Request(fbIframe.attrs['src'],"",headers))
             iframe_soup = BeautifulSoup(response)
             share = iframe_soup.findAll("span", "_5n6h _2pih")[0].text
             # set preText
@@ -110,7 +112,6 @@ try:
             date = date.strftime("%Y%m%d")
             if (date==now):
                 title = sourceCode2.findAll("a","js-auto_break_title")[0].text
-                print(title)
                 link = sourceCode2.findAll("a")[0]['href']
                 preText = sourceCode2.findAll("p","post_description")[0].text
                 with connection.cursor() as cursor:
@@ -123,7 +124,7 @@ try:
                     result = cursor.fetchall()
 
     driver.quit()
-    connection.close() 
+    connection.close()
 except:
     driver.quit()
     exc_type, exc_value, exc_traceback_obj = sys.exc_info()

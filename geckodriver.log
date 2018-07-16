@@ -1,0 +1,329 @@
+Error: Unknown option: port
+1531722007929	geckodriver	INFO	geckodriver 0.21.0
+1531722007947	geckodriver	INFO	Listening on 127.0.0.1:55326
+1531722008925	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/4m/zqmcj9mn1dxghc7ply_n4m_40000gn/T/rust_mozprofile.GhnzYZTRt4Eq"
+*** You are running in headless mode.
+1531722011778	Marionette	INFO	Enabled via --marionette
+2018-07-16 14:20:13.595 plugin-container[62923:15644271] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7943, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1531722014336	Marionette	INFO	Listening on port 55333
+1531722405112	geckodriver	INFO	geckodriver 0.21.0
+1531722405130	geckodriver	INFO	Listening on 127.0.0.1:55524
+1531722406125	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/4m/zqmcj9mn1dxghc7ply_n4m_40000gn/T/rust_mozprofile.HbAowq4JwQpW"
+*** You are running in headless mode.
+1531722407179	Marionette	INFO	Enabled via --marionette
+2018-07-16 14:26:48.486 plugin-container[63085:15658625] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7a07, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1531722409101	Marionette	INFO	Listening on port 55530
+1531722409113	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531722409253	Marionette	DEBUG	Register listener.js for window 2147483649
+1531722409289	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1531722409573	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1531722409574	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1531722412359	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://technews.tw/"
+1531722415573	Marionette	DEBUG	Received DOM event "pageshow" for "https://technews.tw/"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1531722461068	geckodriver	INFO	geckodriver 0.21.0
+1531722461075	geckodriver	INFO	Listening on 127.0.0.1:55636
+1531722462088	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/4m/zqmcj9mn1dxghc7ply_n4m_40000gn/T/rust_mozprofile.To6ThRlC9bcu"
+*** You are running in headless mode.
+1531722462956	Marionette	INFO	Enabled via --marionette
+2018-07-16 14:27:44.075 plugin-container[63117:15660659] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7543, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1531722464835	Marionette	INFO	Listening on port 55642
+1531722464850	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531722464944	Marionette	DEBUG	Register listener.js for window 2147483649
+1531722464996	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1531722465229	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1531722465229	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1531722466258	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://technews.tw/"
+1531722470634	Marionette	DEBUG	Received DOM event "pageshow" for "https://technews.tw/"
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1531722518332	geckodriver	INFO	geckodriver 0.21.0
+1531722518340	geckodriver	INFO	Listening on 127.0.0.1:55769
+1531722519355	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/4m/zqmcj9mn1dxghc7ply_n4m_40000gn/T/rust_mozprofile.mGDrf0AkOxqG"
+*** You are running in headless mode.
+1531722520149	Marionette	INFO	Enabled via --marionette
+2018-07-16 14:28:41.143 plugin-container[63150:15662886] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7d03, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1531722521719	Marionette	INFO	Listening on port 55775
+1531722521764	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531722521836	Marionette	DEBUG	Register listener.js for window 2147483649
+1531722521873	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1531722522232	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1531722522233	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1531722523520	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://technews.tw/"
+1531722526769	Marionette	DEBUG	Received DOM event "pageshow" for "https://technews.tw/"
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1531722568297	geckodriver	INFO	geckodriver 0.21.0
+1531722568304	geckodriver	INFO	Listening on 127.0.0.1:55913
+1531722569309	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/4m/zqmcj9mn1dxghc7ply_n4m_40000gn/T/rust_mozprofile.NIyxOcST3QIA"
+*** You are running in headless mode.
+1531722570134	Marionette	INFO	Enabled via --marionette
+2018-07-16 14:29:31.171 plugin-container[63185:15665090] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8143, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1531722572007	Marionette	INFO	Listening on port 55919
+1531722572107	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531722572211	Marionette	DEBUG	Register listener.js for window 2147483649
+1531722572266	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1531722572504	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1531722572505	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1531722573965	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://technews.tw/"
+1531722577089	Marionette	DEBUG	Received DOM event "pageshow" for "https://technews.tw/"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1531722949241	geckodriver	INFO	geckodriver 0.21.0
+1531722949267	geckodriver	INFO	Listening on 127.0.0.1:56167
+1531722950255	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/4m/zqmcj9mn1dxghc7ply_n4m_40000gn/T/rust_mozprofile.LtiGIBPQNYLq"
+*** You are running in headless mode.
+1531722951174	Marionette	INFO	Enabled via --marionette
+2018-07-16 14:35:52.351 plugin-container[63273:15677622] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x733f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1531722952947	Marionette	INFO	Listening on port 56173
+1531722953049	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531722953133	Marionette	DEBUG	Register listener.js for window 2147483649
+1531722953258	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1531722953636	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1531722953636	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1531722954498	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://technews.tw/"
+1531722958984	Marionette	DEBUG	Received DOM event "pageshow" for "https://technews.tw/"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1531723231408	geckodriver	INFO	geckodriver 0.21.0
+1531723231434	geckodriver	INFO	Listening on 127.0.0.1:56353
+1531723232425	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/4m/zqmcj9mn1dxghc7ply_n4m_40000gn/T/rust_mozprofile.VbxIREumg620"
+*** You are running in headless mode.
+1531723233328	Marionette	INFO	Enabled via --marionette
+2018-07-16 14:40:34.455 plugin-container[63369:15684869] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8043, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1531723235162	Marionette	INFO	Listening on port 56359
+1531723235233	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531723235316	Marionette	DEBUG	Register listener.js for window 2147483649
+1531723235371	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1531723235650	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1531723235651	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1531723236621	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://technews.tw/"
+1531723240063	Marionette	DEBUG	Received DOM event "pageshow" for "https://technews.tw/"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1531723372871	geckodriver	INFO	geckodriver 0.21.0
+1531723372881	geckodriver	INFO	Listening on 127.0.0.1:56560
+1531723373890	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/4m/zqmcj9mn1dxghc7ply_n4m_40000gn/T/rust_mozprofile.xZNnbZRLKtCJ"
+*** You are running in headless mode.
+1531723374752	Marionette	INFO	Enabled via --marionette
+2018-07-16 14:42:55.934 plugin-container[63428:15689601] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7d3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1531723376510	Marionette	INFO	Listening on port 56569
+1531723376604	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531723376684	Marionette	DEBUG	Register listener.js for window 2147483649
+1531723376714	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1531723376979	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1531723376979	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1531723378148	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://technews.tw/"
+1531723381637	Marionette	DEBUG	Received DOM event "pageshow" for "https://technews.tw/"
+1531723469787	geckodriver	INFO	geckodriver 0.21.0
+1531723469815	geckodriver	INFO	Listening on 127.0.0.1:56734
+1531723470805	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/4m/zqmcj9mn1dxghc7ply_n4m_40000gn/T/rust_mozprofile.JCtEpIY1KdqH"
+*** You are running in headless mode.
+1531723471697	Marionette	INFO	Enabled via --marionette
+2018-07-16 14:44:32.848 plugin-container[63476:15692434] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8343, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1531723473522	Marionette	INFO	Listening on port 56740
+1531723473610	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531723473706	Marionette	DEBUG	Register listener.js for window 2147483649
+1531723473779	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1531723474123	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1531723474123	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1531723475222	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://technews.tw/"
+1531723478787	Marionette	DEBUG	Received DOM event "pageshow" for "https://technews.tw/"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1531723844856	geckodriver	INFO	geckodriver 0.21.0
+1531723844880	geckodriver	INFO	Listening on 127.0.0.1:56973
+1531723845891	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/4m/zqmcj9mn1dxghc7ply_n4m_40000gn/T/rust_mozprofile.1jC69WCE87vs"
+*** You are running in headless mode.
+1531723846793	Marionette	INFO	Enabled via --marionette
+2018-07-16 14:50:48.078 plugin-container[63567:15704299] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7f3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1531723848838	Marionette	INFO	Listening on port 56979
+1531723848894	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531723848990	Marionette	DEBUG	Register listener.js for window 2147483649
+1531723849055	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1531723849299	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1531723849300	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1531723850619	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://technews.tw/"
+1531723853640	Marionette	DEBUG	Received DOM event "pageshow" for "https://technews.tw/"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1531724005109	geckodriver	INFO	geckodriver 0.21.0
+1531724005117	geckodriver	INFO	Listening on 127.0.0.1:57186
+1531724006128	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/4m/zqmcj9mn1dxghc7ply_n4m_40000gn/T/rust_mozprofile.JAtThxsipMBF"
+*** You are running in headless mode.
+1531724006957	Marionette	INFO	Enabled via --marionette
+2018-07-16 14:53:28.039 plugin-container[63620:15709100] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7a3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1531724008591	Marionette	INFO	Listening on port 57192
+1531724008702	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531724008776	Marionette	DEBUG	Register listener.js for window 2147483649
+1531724008832	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1531724009169	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1531724009169	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1531724010204	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://technews.tw/"
+1531724013752	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483768"
+1531724014663	Marionette	DEBUG	Received DOM event "pageshow" for "https://technews.tw/"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1531724469442	geckodriver	INFO	geckodriver 0.21.0
+1531724469460	geckodriver	INFO	Listening on 127.0.0.1:57636
+1531724470453	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/4m/zqmcj9mn1dxghc7ply_n4m_40000gn/T/rust_mozprofile.gPCS0yRpVpyQ"
+*** You are running in headless mode.
+1531724471911	Marionette	INFO	Enabled via --marionette
+2018-07-16 15:01:13.493 plugin-container[63755:15723689] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x813f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1531724474377	Marionette	INFO	Listening on port 57643
+1531724474495	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531724474578	Marionette	DEBUG	Register listener.js for window 2147483649
+1531724474716	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1531724474956	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1531724474957	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1531724476732	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://technews.tw/"
+JavaScript error: https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9265925376639117&output=html&h=90&slotname=4604477789&adk=4194973598&adf=2578464978&w=970&loeid=40993911&guci=2.2.0.0.2.2.0&format=970x90&url=https%3A%2F%2Ftechnews.tw%2F&ea=0&flash=0&wgl=1&adsid=NT&dt=1531724476803&bpp=25&bdt=924&fdt=51&idt=875&shv=r20180709&cbv=r20180604&saldr=aa&correlator=205548776746&frm=24&ife=1&pv=2&ga_vid=1426785796.1531724477&ga_sid=1531724478&ga_hid=1465690270&ga_fc=0&icsg=680&nhd=1&dssz=7&mdo=0&mso=0&u_tz=480&u_his=1&u_java=0&u_h=768&u_w=1366&u_ah=768&u_aw=1366&u_cd=24&u_nplug=0&u_nmime=0&adx=0&ady=0&biw=-12245933&bih=-12245933&isw=970&ish=90&ifk=3543965864&scr_x=-12245933&scr_y=-12245933&eid=21061122%2C40993901%2C368226400&oid=3&rx=0&eae=2&brdim=%2C%2C4%2C4%2C1366%2C0%2C1366%2C768%2C970%2C90&vis=1&rsz=%7C%7CceE%7C&abl=NS&ppjl=t&pfx=0&fu=16&bc=5&ifi=1&dtd=948, line 1: ReferenceError: registerAd is not defined
+1531724480424	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483769"
+1531724480917	Marionette	DEBUG	Received DOM event "pageshow" for "https://technews.tw/"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1531724532741	geckodriver	INFO	geckodriver 0.21.0
+1531724532748	geckodriver	INFO	Listening on 127.0.0.1:57775
+1531724533752	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/4m/zqmcj9mn1dxghc7ply_n4m_40000gn/T/rust_mozprofile.rw7JJGw4HlTd"
+*** You are running in headless mode.
+1531724534516	Marionette	INFO	Enabled via --marionette
+2018-07-16 15:02:15.523 plugin-container[63790:15725478] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7903, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1531724536113	Marionette	INFO	Listening on port 57781
+1531724536220	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531724536287	Marionette	DEBUG	Register listener.js for window 2147483649
+1531724536316	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1531724536650	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1531724536650	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1531724537570	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://technews.tw/"
+1531724542221	Marionette	DEBUG	Received DOM event "pageshow" for "https://technews.tw/"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1531724698464	geckodriver	INFO	geckodriver 0.21.0
+1531724698474	geckodriver	INFO	Listening on 127.0.0.1:57938
+1531724699490	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/4m/zqmcj9mn1dxghc7ply_n4m_40000gn/T/rust_mozprofile.3CwO8oxl5cB4"
+*** You are running in headless mode.
+1531724700359	Marionette	INFO	Enabled via --marionette
+2018-07-16 15:05:01.429 plugin-container[63839:15729929] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8407, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1531724702105	Marionette	INFO	Listening on port 57944
+1531724702171	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531724702265	Marionette	DEBUG	Register listener.js for window 2147483649
+1531724702302	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1531724702595	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1531724702595	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1531724703752	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://technews.tw/"
+1531724708049	Marionette	DEBUG	Received DOM event "pageshow" for "https://technews.tw/"
+1531724767462	geckodriver	INFO	geckodriver 0.21.0
+1531724767471	geckodriver	INFO	Listening on 127.0.0.1:58069
+1531724768481	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/4m/zqmcj9mn1dxghc7ply_n4m_40000gn/T/rust_mozprofile.hwcUdr9G9pNV"
+*** You are running in headless mode.
+1531724769364	Marionette	INFO	Enabled via --marionette
+2018-07-16 15:06:10.678 plugin-container[63873:15731666] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7543, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1531724771536	Marionette	INFO	Listening on port 58075
+1531724771603	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531724771684	Marionette	DEBUG	Register listener.js for window 2147483649
+1531724771715	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1531724771998	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1531724771998	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1531724772971	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://technews.tw/"
+1531724777559	Marionette	DEBUG	Received DOM event "pageshow" for "https://technews.tw/"
+1531724823177	geckodriver	INFO	geckodriver 0.21.0
+1531724823186	geckodriver	INFO	Listening on 127.0.0.1:58210
+1531724824192	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/4m/zqmcj9mn1dxghc7ply_n4m_40000gn/T/rust_mozprofile.RwJSszL3YRf8"
+*** You are running in headless mode.
+1531724825201	Marionette	INFO	Enabled via --marionette
+2018-07-16 15:07:06.538 plugin-container[63906:15733692] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x773f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1531724827361	Marionette	INFO	Listening on port 58216
+1531724827434	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531724827518	Marionette	DEBUG	Register listener.js for window 2147483649
+1531724827548	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1531724827836	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1531724827836	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1531724829285	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://technews.tw/"
+1531724833449	Marionette	DEBUG	Received DOM event "pageshow" for "https://technews.tw/"
+1531724877133	geckodriver	INFO	geckodriver 0.21.0
+1531724877143	geckodriver	INFO	Listening on 127.0.0.1:58346
+1531724878165	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/4m/zqmcj9mn1dxghc7ply_n4m_40000gn/T/rust_mozprofile.p0cADGQSC7yH"
+*** You are running in headless mode.
+1531724879424	Marionette	INFO	Enabled via --marionette
+2018-07-16 15:08:00.967 plugin-container[63937:15735567] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8503, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1531724882236	Marionette	INFO	Listening on port 58352
+1531724882328	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531724882421	Marionette	DEBUG	Register listener.js for window 2147483649
+1531724882482	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1531724882735	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1531724882738	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1531724884293	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://technews.tw/"
+1531724888600	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483778"
+1531724888764	Marionette	DEBUG	Received DOM event "pageshow" for "https://technews.tw/"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
