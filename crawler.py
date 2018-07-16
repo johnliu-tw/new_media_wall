@@ -2,7 +2,7 @@ import time
 import string
 import datetime
 import os
-import urllib2
+import urllib
 from selenium import webdriver
 from bs4 import BeautifulSoup
 import sys
@@ -53,7 +53,7 @@ try:
             link = sourceCode2.findAll("a")[0]['href']
             # set share
             fbIframe = sourceCode2.findAll("iframe")[1]
-            response = urllib2.urlopen(urllib2.Request(fbIframe.attrs['src'],"",headers))
+            response = urllib.urlopen(fbIframe.attrs['src'])
             iframe_soup = BeautifulSoup(response)
             share = iframe_soup.findAll("span", "_5n6h _2pih")[0].text
             # set preText
