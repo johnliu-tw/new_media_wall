@@ -11,3 +11,4 @@ virtualenv==15.1.0
 youtube-dl==2018.1.27
 selenium==3.13.0
 beautifulsoup4
+psycopg2
