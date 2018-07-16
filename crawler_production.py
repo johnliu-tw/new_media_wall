@@ -11,8 +11,6 @@ import psycopg2
 import re
 import http.client  
 
-reload(sys) 
-sys.setdefaultencoding('utf8')
 
 conn = psycopg2.connect(database="d9ptbtijvjtpr0", 
                         user="xmklahsxcdzulp", 
