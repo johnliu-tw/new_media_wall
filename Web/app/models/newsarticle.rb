@@ -1,2 +1,0 @@
-class Newsarticle < ApplicationRecord
-end

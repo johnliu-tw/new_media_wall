@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @news.title %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @news.date %>
+</p>
+
+<p>
+  <strong>Link:</strong>
+  <%= @news.link %>
+</p>
+
+<p>
+  <strong>Share:</strong>
+  <%= @news.share %>
+</p>
+
+<p>
+  <strong>Pretext:</strong>
+  <%= @news.preText %>
+</p>
+
+<p>
+  <strong>Tag:</strong>
+  <%= @news.tag %>
+</p>
+
+<p>
+  <strong>Brand:</strong>
+  <%= @news.brand %>
+</p>
+
+<%= link_to 'Edit', edit_news_path(@news) %> |
+<%= link_to 'Back', news_index_path %>

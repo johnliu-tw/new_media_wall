@@ -1,0 +1,55 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="header-label">
+        Inside
+      </div>
+      <%@inside_news.each do |news| %>
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title"><%= news.title %></h4>
+            <p class="card-text"><small class="text-muted"><%= news.date %></small></p>
+            <p class="card-text"><small class="text-muted"><%= news.brand %></small></p>
+            <p class="card-text pretext"><%= news.preText %></p>
+            <a target="_blank" href=<%= news.link %> class="btn btn-primary btn-lg btn-block">查看更多</a>
+          </div>
+        </div>
+      <% end %>
+      <%= will_paginate @inside_news%>
+    </div>
+    <div class="col-xs-12">
+      <div class="header-label">
+        TechNews
+      </div>
+      <%@technews_news.each do |news| %>
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title"><%= news.title %></h4>
+            <p class="card-text"><small class="text-muted"><%= news.date %></small></p>
+            <p class="card-text"><small class="text-muted"><%= news.brand %></small></p>
+            <p class="card-text pretext"><%= news.preText %></p>
+            <a target="_blank" href=<%= news.link %> class="btn btn-primary btn-lg btn-block">查看更多</a>
+          </div>
+        </div>
+      <% end %>
+      <%= will_paginate @technews_news%>
+    </div>
+    <div class="col-xs-12">
+      <div class="header-label">
+        TechOrange
+      </div>
+      <%@techorange_news.each do |news| %>
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title"><%= news.title %></h4>
+            <p class="card-text"><small class="text-muted"><%= news.date %></small></p>
+            <p class="card-text"><small class="text-muted"><%= news.brand %></small></p>
+            <p class="card-text pretext"><%= news.preText %></p>
+            <a target="_blank" href=<%= news.link %> class="btn btn-primary btn-lg btn-block">查看更多</a>
+          </div>
+        </div>
+      <% end %>
+      <%= will_paginate @techorange_news%>
+    </div>
+  </div>
+</div>

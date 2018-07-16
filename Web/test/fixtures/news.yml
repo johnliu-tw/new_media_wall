@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  date: MyString
+  link: MyString
+  share: MyString
+  preText: MyString
+  tag: MyString
+  brand: MyString
+
+two:
+  title: MyString
+  date: MyString
+  link: MyString
+  share: MyString
+  preText: MyString
+  tag: MyString
+  brand: MyString
