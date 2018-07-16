@@ -18,7 +18,7 @@ conn = psycopg2.connect(database="d9ptbtijvjtpr0",
                         host="ec2-54-163-234-99.compute-1.amazonaws.com", 
                         port="5432")
 
-currentPath = '/geckodriver'
+currentPath = 'geckodriver'
 options = webdriver.firefox.options.Options()
 options.add_argument('-headless')
 
