@@ -68,7 +68,7 @@ try:
                 tags += childKeyword.text
             with connection.cursor() as cursor:
                 # Read a single record
-                sql = '''INSERT INTO `new_media`.`articles`
+                sql = '''INSERT INTO `new_media`.`news`
                         (`title`, `date`, `tag`,`share`,`link`,`preText`,`brand`)
                         VALUES ('{}', '{}', '{}', '{}', '{}','{}','{}'); '''.format(title,date,tags,share,link,preText,'technews')
                 cursor.execute(sql)
@@ -91,7 +91,7 @@ try:
             share = share.translate(DD)
             with connection.cursor() as cursor:
                 # Read a single record
-                sql = '''INSERT INTO `new_media`.`articles`
+                sql = '''INSERT INTO `new_media`.`news`
                         (`title`, `date`,`share`,`link`,`brand`)
                         VALUES ('{}', '{}', '{}', '{}','{}'); '''.format(title,date,share,link,'techorange')
                 cursor.execute(sql)
@@ -109,14 +109,15 @@ try:
             date = sourceCode2.findAll("li","post_date")[0].text
             date = date.replace("\n","")
             date = datetime.datetime.strptime(date, "%Y/%m/%d")
-            if (date!=now):
+            date = date.strftime("%Y%m%d")
+            if (date==now):
                 title = sourceCode2.findAll("a","js-auto_break_title")[0].text
                 print(title)
                 link = sourceCode2.findAll("a")[0]['href']
                 preText = sourceCode2.findAll("p","post_description")[0].text
                 with connection.cursor() as cursor:
                     # Read a single record
-                    sql = '''INSERT INTO `new_media`.`articles`
+                    sql = '''INSERT INTO `new_media`.`news`
                             (`title`, `date`,`preText`,`link`,`brand`)
                             VALUES ('{}', '{}', '{}', '{}','{}'); '''.format(title,date,preText,link,'inside')
                     cursor.execute(sql)
