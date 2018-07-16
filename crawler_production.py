@@ -19,12 +19,12 @@ conn = psycopg2.connect(database="d9ptbtijvjtpr0",
                         port="5432")
 
 currentPath = '/app/chromedriver'
-options = webdriver.firefox.options.Options()
+options = webdriver.ChromeOptions()
 options.add_argument('-headless')
 
 
 
-driver = webdriver.Chrome(currentPath)
+driver = webdriver.Chrome(currentPath,chrome_options=options)
 now = datetime.datetime.now()
 now = now.strftime("%Y%m%d")
 
